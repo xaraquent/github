@@ -1,0 +1,146 @@
+:root {
+    --primary: #131d2f;
+    --secondary: #1f2948;
+    --button: #0078ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--primary);
+}
+
+.main-container {
+    padding: 20px;
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10vh;
+}
+
+/* --------------------------------------- */
+
+.heading {
+    padding: 20px;
+    border: 1px solid orange;
+}
+
+.search-bar {
+    padding: 15px;
+    background-color: var(--secondary);
+    border-radius: 8px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.user-info {
+    padding: 20px;
+    background-color: var(--secondary);
+    border-radius: 8px;
+    height: 420px;
+    display: flex;
+}
+
+/* --------------------------------------- */
+
+/* ------------- Search Bar ------------- */
+
+.search-icon {
+    width: 50px;
+    scale: 0.5;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    background-color: var(--secondary);
+    padding: 0px 30px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--button);
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.search-btn:hover {
+    filter: brightness(1.1)
+}
+
+.search-btn:active {
+    filter: brightness(0.9)
+}
+
+/* -------------- User info ------------------ */
+
+.img-container {
+    padding: 20px;
+    border: 1px solid orange;
+    width: 250px;
+}
+
+.user-container {
+    border: 1px solid orange;
+    width: 100%;
+}
+
+/* ------------------------------------------ */
+
+.account-name {
+    padding: 20px;
+    border: 1px solid orange;
+    height: 40%;
+}
+
+.account-data {
+    padding: 20px;
+    border: 1px solid orange;
+    height: 30%;
+}
+
+.account-links {
+    border: 1px solid orange;
+    height: 30%;
+    display: flex;
+}
+
+/* -------- Account data ------------------ */
+
+
+/* -------- Account links ------------------ */
+
+.links {
+    border: 1px solid purple;
+    width: 100%;
+}
+
+.link {
+    padding: 10px;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+/* ----------------------------------------- */
+
+.link-icon {}
+
+.link-text {
+    color: #fff;
+}
